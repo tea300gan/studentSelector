@@ -17,17 +17,13 @@ class ViewController2: UIViewController {
 
         // Do any additional setup after loading the view.
     }
-    @IBAction func backButton(_ sender: UIButton) {
-        //unwind(<#T##seg: UIStoryboardSegue##UIStoryboardSegue#>)
-    }
     
     @IBAction func addName(_ sender: UIButton) {
-        studentList.append(newEntery.text)
+        studentList.append(String(newEntery.text!))
     }
     
-    @IBAction func unwind(_ seg: UIStoryboardSegue ) {
+    
     }
-
     /*
     // MARK: - Navigation
 
