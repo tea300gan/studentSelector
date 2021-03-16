@@ -33,5 +33,3 @@ class ViewController2: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
-
-}

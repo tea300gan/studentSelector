@@ -61,7 +61,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="EPa-Rd-KNA"/>
                     <connections>
-                        <outlet property="studentDisplay" destination="tar-xP-V7z" id="ou0-cW-Dac"/>
+                        <outlet property="studentDisplay" destination="tar-xP-V7z" id="8c5-iD-TGe"/>
                         <segue destination="PSF-r0-8QC" kind="show" identifier="goToEdit" id="L1R-6L-ilJ"/>
                     </connections>
                 </viewController>
