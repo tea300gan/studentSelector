@@ -11,7 +11,7 @@ class ViewController2: UIViewController, UITableViewDelegate, UITableViewDataSou
     @IBOutlet weak var newEntery: UITextField!
     @IBOutlet weak var listDisplay: UITableView!
     
-    var studentList = ["Braddly", "Emma", "Cooper", "Nick"]
+    var studentList : [String]!
     
     let defults = UserDefaults.standard
     
